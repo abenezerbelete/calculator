@@ -1,0 +1,46 @@
+body[className="t1"]{
+    background-color: hsl(268, 75%, 9%);
+    --text: hsl(52, 100%, 62%);
+    --card-bg: hsl(268, 71%, 12%);
+}
+
+body[className="t2"]{
+    background-color: hsl(222, 26%, 31%);
+    --card-bg: hsl(223, 31%, 20%);
+    --text: white;    
+}
+
+body[className="t3"]{
+    background-color: hsl(0, 0%, 90%);
+    --card-bg: hsl(0, 5%, 81%);
+    --text: hsl(198, 20%, 13%);
+}
+
+$card-bg: var(--card-bg);
+// $primary: #ff0000;
+// $secondary-color: var(--key-color) !default;
+// $dark: #300;
+// $light: #fdd;
+// $success: #96e948;
+// $info: yellow;
+// $warning: blue;
+// $danger: purple;
+// $accent: orange;
+
+h3{
+    color: var(--text);
+}
+
+h4{
+    color: var(--text);
+}
+
+label{
+    color: var(--text);
+}
+
+span{
+    color: var(--text);
+}
+
+@import '~bootstrap/scss/bootstrap.scss'
