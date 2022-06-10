@@ -53,21 +53,25 @@ const App = () => {
 
   const plusC = () => {
     const ed = inp.current.value
+    if(ed !== '')
     inp.current.value = ed + '+'
   }
 
   const minusC = () => {
     const ed = inp.current.value
+    if(ed !== '')
     inp.current.value = ed + '-'
   }
 
   const timesC = () => {
     const ed = inp.current.value
+    if(ed !== '')
     inp.current.value = ed + '*'
   }
 
   const divC = () => {
     const ed = inp.current.value
+    if(ed !== '')
     inp.current.value = ed + '/'
   }
 
